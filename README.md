@@ -17,7 +17,7 @@ cd foam
 
 git clone git://git.code.sf.net/p/foam-extend/foam-extend-4.0 foam-extend-4.0
 
-now move to the created folder
+##now move to the created folder##
 
 cd ~/foam/foam-extend-4.0
 

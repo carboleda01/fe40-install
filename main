@@ -1,0 +1,15 @@
+#/usr/bin/bash
+
+#chmod u+x update
+#chmod u+x addVBGuestAdd.sh
+
+#./update
+#./addVBGuestAdd.sh
+
+# mount shared folder
+username=carlos
+sudo sh -c 'echo shared	/home/$username/shared	vboxsf	defaults	0	0 >> /etc/fstab'
+sudo sh -c 'echo vboxsf >> /etc/modules'
+programName=shared
+mkdir ~/$programName
+sudo mount -t vboxsf $programName ~/$programName

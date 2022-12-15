@@ -8,8 +8,10 @@
 
 # mount shared folder
 username=carlos
-sudo sh -c 'echo shared	/home/$username/shared	vboxsf	defaults	0	0 >> /etc/fstab'
-sudo sh -c 'echo vboxsf >> /etc/modules'
 programName=shared
-mkdir ~/$programName
-sudo mount -t vboxsf $programName ~/$programName
+sudo sh -c 'echo shared	/home/$username/$programName	vboxsf	defaults	0	0 >> /etc/fstab'
+sudo sh -c 'echo vboxsf >> /etc/modules'
+
+shutdown now
+#mkdir ~/$programName
+#sudo mount -t vboxsf $programName ~/$programName

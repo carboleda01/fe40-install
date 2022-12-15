@@ -7,10 +7,10 @@
 #./addVBGuestAdd.sh
 
 # mount shared folder
-username=carlos
-programName=shared
-sudo sh -c 'echo shared	/home/$username/$programName	vboxsf	defaults	0	0 >> /etc/fstab'
-sudo sh -c 'echo vboxsf >> /etc/modules'
+#username=carlos
+#programName=shared
+#sudo sh -c 'echo shared	/home/$username/$programName	vboxsf	defaults	0	0 >> /etc/fstab'
+#sudo sh -c 'echo vboxsf >> /etc/modules'
 
 shutdown now
 #mkdir ~/$programName

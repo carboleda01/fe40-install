@@ -19,8 +19,10 @@
 # Add the bionic repository 
 sudo sh -c 'echo deb http://us.archive.ubuntu.com/ubuntu/ bionic universe >> /etc/apt/sources.list'
 
+sudo apt update
+
 chmod u+x dependencies
-chmod u+x downloadAndInstall.sh
+#chmod u+x downloadAndInstall.sh
 
 ./dependencies
-./downloadAndInstall.sh
+#./downloadAndInstall.sh

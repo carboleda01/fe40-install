@@ -7,12 +7,20 @@
 #./addVBGuestAdd.sh
 
 # mount shared folder
-username=carlos
-programName=shared
+#username=carlos
+#programName=shared
 #mkdir ~/$programName
-sudo sh -c 'echo shared	/home/$username/$programName	vboxsf	defaults	0	0 >> /etc/fstab'
+#sudo sh -c 'echo shared	/home/$username/$programName	vboxsf	defaults	0	0 >> /etc/fstab'
 #sudo sh -c 'echo vboxsf >> /etc/modules'
-sudo mount -t vboxsf $programName ~/$programName
-#shutdown now
+#sudo mount -t vboxsf $programName ~/$programName
+#reboot
 
+# Prepare for fe40 install
+# Add the bionic repository 
+sudo sh -c 'echo deb http://us.archive.ubuntu.com/ubuntu/ bionic universe >> /etc/apt/sources.list'
 
+chmod u+x dependencies
+chmod u+x downloadAndInstall.sh
+
+./dependencies
+./downloadAndInstall.sh

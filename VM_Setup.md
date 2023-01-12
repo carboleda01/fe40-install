@@ -79,3 +79,13 @@ cd ~/Documents
 chmod  u+x guest_additions_shared_folder_step2.sh
 ./guest_additions_shared_folder_step2.sh
 ```
+
+> **Warning**
+> If a blackscreen happens when opening the virtual machine, increase the video memory
+
+```
+cp ~/Documents/fe40-install/install-foamextend.sh ~/Documents
+cd ~/Documents
+chmod  u+x install-foamextend.sh.sh
+./install-foamextend.sh
+```

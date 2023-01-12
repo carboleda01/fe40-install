@@ -32,3 +32,17 @@ The setup of the virtual machine is relatively easy, just follow the following s
 8. Virtual machine is created
 
 ![VMC](./images/8.createdmachine.png)
+
+9. Start machine
+
+![VMC](./images/9.startmachine.png)
+
+10. Select Ubuntu starter
+
+![SUS](./images/10.select_ubuntustarter.png)
+
+11. Install Ubuntu
+
+![InstallUbuntu](./images/11.installUbuntu.png)
+
+And press continue while checking the information is correct. Ubuntu should start its installation once you have chosen a password.

@@ -86,6 +86,6 @@ chmod  u+x guest_additions_shared_folder_step2.sh
 ```
 cp ~/Documents/fe40-install/install-foamextend.sh ~/Documents
 cd ~/Documents
-chmod  u+x install-foamextend.sh.sh
+chmod  u+x install-foamextend.sh
 ./install-foamextend.sh
 ```

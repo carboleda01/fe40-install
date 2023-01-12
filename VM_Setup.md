@@ -66,6 +66,7 @@ Copy the step 1 of the guest addition script from the git to the Documents folde
 ```
 cd ~/Documents/fe40-install
 cp guest_additions_shared_folder_step1.sh ..
+cd ..
 chmod  u+x guest_additions_shared_folder_step1.sh
 ./guest_additions_shared_folder_step1.sh
 ```

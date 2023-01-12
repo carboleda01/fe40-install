@@ -64,9 +64,8 @@ git clone https://github.com/carboleda01/fe40-install.git
 Copy the step 1 of the guest addition script from the git to the Documents folder, give yourself excusion rights and execute the script
 
 ```
-cd ~/Documents/fe40-install
-cp guest_additions_shared_folder_step1.sh ..
-cd ..
+cp ~/Documents/fe40-install/guest_additions_shared_folder_step1.sh ~/Documents
+cd ~/Documents
 chmod  u+x guest_additions_shared_folder_step1.sh
 ./guest_additions_shared_folder_step1.sh
 ```
@@ -75,9 +74,8 @@ also, you can select a shared folder before the reboot of the machines
 
 
 ```
-cd ~/Documents/fe40-install
-cp guest_additions_shared_folder_step2.sh ..
-cd ..
+cp ~/Documents/fe40-install/guest_additions_shared_folder_step2.sh ~/Documents
+cd ~/Documents
 chmod  u+x guest_additions_shared_folder_step2.sh
 ./guest_additions_shared_folder_step2.sh
 ```

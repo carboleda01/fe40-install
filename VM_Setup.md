@@ -54,3 +54,8 @@ To do so, we will first update our machine and install git to be able to use the
 sudo apt update
 sudo apt install git
 ```
+And finally clone this repository
+
+```
+git clone https://github.com/carboleda01/fe40-install.git
+```

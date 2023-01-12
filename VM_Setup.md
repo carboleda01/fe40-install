@@ -54,8 +54,20 @@ To do so, we will first update our machine and install git to be able to use the
 sudo apt update
 sudo apt install git
 ```
-And finally clone this repository
+And finally clone this repository in the Documents folder
 
 ```
+cd ~/Documents
 git clone https://github.com/carboleda01/fe40-install.git
 ```
+
+Copy the step 1 of the guest addition script from the git to the Documents folder, give yourself excusion rights and execute the script
+
+```
+cd ~/Documents/fe40-install
+cp guest_additions_shared_folder_step1.sh ..
+chmod  u+x guest_additions_shared_folder_step1.sh
+./guest_additions_shared_folder_step1.sh
+```
+This should be enough for you to be able to enable the bi-direction clipboard, once you try to restart the machine.
+also, you can select a shared folder before the reboot of the machines

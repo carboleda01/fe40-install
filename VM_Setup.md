@@ -72,3 +72,12 @@ chmod  u+x guest_additions_shared_folder_step1.sh
 ```
 This should be enough for you to be able to enable the bi-direction clipboard, once you try to restart the machine.
 also, you can select a shared folder before the reboot of the machines
+
+
+```
+cd ~/Documents/fe40-install
+cp guest_additions_shared_folder_step2.sh ..
+cd ..
+chmod  u+x guest_additions_shared_folder_step2.sh
+./guest_additions_shared_folder_step2.sh
+```

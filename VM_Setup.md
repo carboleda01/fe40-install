@@ -46,3 +46,11 @@ The setup of the virtual machine is relatively easy, just follow the following s
 ![InstallUbuntu](./images/11.installUbuntu.png)
 
 And press continue while checking the information is correct. Ubuntu should start its installation once you have chosen a password.
+
+Once the virtual machine installed, it is time to add the guest additions, add a bi-directional clipboard and a shared folder, to be able to transfer information from and to the virtual machine. 
+To do so, we will first update our machine and install git to be able to use the scripts that are in this repository.
+
+```
+sudo apt update
+sudo apt install git
+```

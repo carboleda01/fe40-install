@@ -9,7 +9,7 @@ cd /mnt/cdrom
 sudo ./VBoxLinuxAdditions.run
 
 # mount shared folder
-username=carlos
+username=car-b
 programName=shared
 mkdir ~/$programName
 sudo sh -c 'echo shared	/home/$username/$programName	vboxsf	defaults	0	0 >> /etc/fstab'

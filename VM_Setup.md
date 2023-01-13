@@ -89,3 +89,17 @@ cd ~/Documents
 chmod  u+x install-foamextend.sh
 ./install-foamextend.sh
 ```
+
+## Paraview
+Download the binaries of the desired version off paraview from https://www.paraview.org/download/, as an example, I am using the version 5.11.
+Extract the paraview the content of the downloaded files in the /opt folder
+
+```
+cd /opt
+sudo tar xvfz ~/Downloads/ParaView-5.11.0-MPI-Linux-Python3.9-x86_64.tar.gz
+```
+and add it to the path
+
+```
+echo "export PATH=/opt/ParaView-5.11.0-MPI-Linux-Python3.9-x86_64/bin:$PATH" >> $HOME/.bashrc
+```
